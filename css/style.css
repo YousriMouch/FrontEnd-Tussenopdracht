@@ -1,0 +1,52 @@
+#center-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+nav {
+    margin-bottom: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+a:hover {
+    background-color: #457B9D;
+    color: white;
+}
+
+.titlecontainer {
+    border-top: solid 1px black;
+}
+
+.product {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    border-bottom: solid 1px black;
+    
+    padding-bottom: 50px;
+    
+}
+.product img {
+    width: 500px;
+}
+
+.producten {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title-producten {
+    text-align: center;
+}
+.gerelateerde-producten {
+    background-color: azure;
+}
